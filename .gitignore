@@ -1,0 +1,38 @@
+# Directories
+/node_modules
+/vendor
+/public/storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/*
+/storage/debugbar/*
+/storage/backups/*
+
+# Docker
+.env
+.env.*
+.docker/
+
+# Files
+Homestead.json
+Homestead.yaml
+*.log
+*.env
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Laravel mix
+/node_modules/
+/public/css
+/public/js
+/mix-manifest.json
+
+# Miscellaneous
+composer.lock
+npm-debug.log
+yarn-error.log
+yarn.lock
